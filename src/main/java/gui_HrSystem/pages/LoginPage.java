@@ -12,6 +12,7 @@ public class LoginPage extends Base_Page{
     private By useName= By.name("username");
     private By password=By.name("password");
     private By login_Btn=By.cssSelector("[class*='oxd-button']");
+    private By errorMessage=By.xpath("//div[@class='oxd-alert-content oxd-alert-content--error']");
 
     public void loginWithValidData(String name, String userPassword)
     {
@@ -20,8 +21,10 @@ public class LoginPage extends Base_Page{
         sendKey(password, userPassword);
         clickOnElement(login_Btn);
     }
+public String getErrorMessageForInvalidCredentials() {
 
-
+       return getTest(errorMessage);
+}
 
 
 }

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cross Browser Testing ">
+
+    <parameter name="URL" value="https://testautomationu.applitools.com/"></parameter>
+
+    <test name="Test on IE">
+        <parameter name="BrowserType" value="Internet Explorer"></parameter>
+
+
+        <classes>
+            <class name="gui_HrSystems.tests.Cross_Browser_Test">
+
+            </class>
+        </classes>
+    </test>
+
+    <test name="Test on FireFox">
+        <parameter name="BrowserType" value="Firefox"></parameter>
+        <parameter name="URL" value="https://www.google.com/"></parameter>
+        <classes>
+            <class name="gui_HrSystems.tests.Cross_Browser_Test">
+
+            </class>
+        </classes>
+    </test>
+
+    <test name="Test on Chrome">
+        <parameter name="BrowserType" value="Chrome"></parameter>
+        <classes>
+            <class name="gui_HrSystems.tests.Cross_Browser_Test">
+
+            </class>
+        </classes>
+    </test>
+
+</suite>
