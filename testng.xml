@@ -3,7 +3,7 @@
 <suite name="Orange Hrm Live">
     <test name="login test">
         <classes>
-            <class name="gui_HrSystems.tests.LoginTest_ScenarioTestNG1">
+            <class name="gui.tests_HR.LoginTest_ScenarioTestNG1">
                 <methods>
                     <exclude name="loginSuccessfully2"></exclude>
                 </methods>

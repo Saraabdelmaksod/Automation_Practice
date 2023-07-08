@@ -6,7 +6,7 @@
     </listeners>
     <test name="login test">
         <classes>
-            <class name="gui_HrSystems.tests.LoginTest_ScenarioTestNG2">
+            <class name="gui.tests_HR.LoginTest_ScenarioTestNG2">
             </class>
         </classes>
     </test>
