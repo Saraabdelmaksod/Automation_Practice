@@ -1,4 +1,4 @@
-package gui_HrSystems.tests;
+package gui.tests_HR;
 
 import gui_HrSystem.pages.Attendance_Page;
 import gui_HrSystem.pages.LoginPage;
@@ -21,7 +21,6 @@ public class Base_Test {
         driver=new ChromeDriver();
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
         driver.manage().window().maximize();
-
         LoginPageObj=new LoginPage(driver);
         MainPageObj=new MainPage(driver);
         Attendance_PageObj=new Attendance_Page(driver);
@@ -35,6 +34,6 @@ public class Base_Test {
     @AfterClass
     public void quitDriver(){
 
-     //  driver.quit();
+       driver.quit();
     }
 }

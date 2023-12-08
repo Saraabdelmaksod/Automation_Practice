@@ -1,4 +1,4 @@
-package gui_HrSystems.tests;
+package gui.tests_HR;
 
 import org.testng.annotations.*;
 

@@ -1,12 +1,9 @@
-package gui_HrSystems.tests;
+package gui.tests_HR;
 
-import gui_HrSystem.pages.Attendance_Page;
 import gui_HrSystem.pages.LoginPage;
 import gui_HrSystem.pages.MainPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
